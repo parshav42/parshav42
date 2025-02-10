@@ -8,7 +8,8 @@ for i in range(1, num + 1):
     factorial *= i
 
 print(f"The factorial of {num} is {factorial}")
-
+print("hello parshav")
 print(f"The factorial of {num} is {factorial}")
-
+print("hello parshav")
 print(f"The factorial of {num} is {factorial}")
+print("hello parshav")
