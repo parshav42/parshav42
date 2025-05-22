@@ -16,8 +16,8 @@ notepad hello_git
 echo "hello Parshav" -> hello_git.txt
 git add hello_git.txt
 git commit -m "done "
-git remote set-url origin https://tokan@github.com/parshav42/devops.git
-git push 
+git remote set-url origin https://tokan@github.com/parshav42/devops.git or git remote set-url origin https://github.com/PratikPatil156/sample.git
+git push or git push -u origin main
 
 git branch
 git branch branch 1
