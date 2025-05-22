@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/yourusername/yourrepo.git'
+            }
+        }
+        
+        stage('Build') {
+            steps {
+                bat 'mvn clean install'  // Windows batch command
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                bat 'mvn test'
+            }
+        }
+        
+        stage('Deploy') {
+            steps {
+                bat './deploy.bat'  // Example deployment script
+            }
+        }
+    }
+}
