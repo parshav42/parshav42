@@ -1,0 +1,121 @@
+Here are some common Docker commands for various tasks:
+
+1. Basic Docker Commands:
+Check Docker Version
+
+bash
+Copy
+Edit
+docker --version
+List Docker Containers (running)
+
+bash
+Copy
+Edit
+docker ps
+List All Containers (including stopped)
+
+bash
+Copy
+Edit
+docker ps -a
+List Docker Images
+
+bash
+Copy
+Edit
+docker images
+Pull an Image from Docker Hub
+
+bash
+Copy
+Edit
+docker pull <image_name>
+Build an Image from Dockerfile
+
+bash
+Copy
+Edit
+docker build -t <image_name> .
+Run a Container
+
+bash
+Copy
+Edit
+docker run -d --name <container_name> <image_name>
+2. Container Management:
+Start a Stopped Container
+
+bash
+Copy
+Edit
+docker start <container_name_or_id>
+Stop a Running Container
+
+bash
+Copy
+Edit
+docker stop <container_name_or_id>
+Restart a Container
+
+bash
+Copy
+Edit
+docker restart <container_name_or_id>
+Remove a Container
+
+bash
+Copy
+Edit
+docker rm <container_name_or_id>
+Remove an Image
+
+bash
+Copy
+Edit
+docker rmi <image_name_or_id>
+3. Inspect and Logs:
+View Container Logs
+
+bash
+Copy
+Edit
+docker logs <container_name_or_id>
+Inspect a Container
+
+bash
+Copy
+Edit
+docker inspect <container_name_or_id>
+Inspect an Image
+
+bash
+Copy
+Edit
+docker inspect <image_name_or_id>
+4. Other Useful Commands:
+Execute Command in a Running Container
+
+bash
+Copy
+Edit
+docker exec -it <container_name_or_id> <command>
+Remove Stopped Containers
+
+bash
+Copy
+Edit
+docker container prune
+Remove Unused Images, Containers, Volumes, Networks
+
+bash
+Copy
+Edit
+docker system prune
+View Docker System Information
+
+bash
+Copy
+Edit
+docker info
+These commands cover the basics, but Docker offers a lot more functionality, depending on your needs. Let me know if you need more specific details!
