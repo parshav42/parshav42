@@ -54,3 +54,31 @@ git push
 
 exp 3
 
+Key Merge Commands:
+To merge a branch into the current branch:
+
+bash
+Copy
+Edit
+git merge <branch-name>
+To abort a merge in progress:
+
+bash
+Copy
+Edit
+git merge --abort
+To view merge status (conflicts, changes):
+
+bash
+Copy
+Edit
+git status
+To resolve conflicts and commit:
+
+Resolve manually, then:
+
+bash
+Copy
+Edit
+git add <conflicted-file>
+git commit
