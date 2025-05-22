@@ -1,0 +1,39 @@
+pipeline {
+  agent any  // This tells Jenkins to run the pipeline on any available agent (machine).
+  stages {   // The stages of your pipeline.
+    
+    stage('Clone') {   // First stage: Cloning the repository.
+      steps {
+        git 'https://github.com/your-repo.git'   // Clone your GitHub repository
+      }
+    }
+
+    stage('Build') {   // Second stage: Building the application.
+      steps {
+        echo 'Building...'   // Simple message that will be displayed in Jenkins logs
+        // Add your build commands here, like:
+        // sh 'mvn clean install' (for Maven projects)
+        // or
+        // sh 'npm install' (for Node.js projects)
+      }
+    }
+
+    stage('Test') {   // Third stage: Running tests.
+      steps {
+        echo 'Testing...'   // Display message
+        // Add your testing commands here, like:
+        // sh 'npm test' or 'mvn test'
+      }
+    }
+
+    stage('Deploy') {   // Fourth stage: Deploying the application.
+      steps {
+        echo 'Deploying...'   // Display message
+        // Add deployment commands here, like:
+        // sh 'docker build -t myapp .'
+        // sh 'docker run myapp'
+        // or use Jenkins plugins to deploy to cloud or servers
+      }
+    }
+  }
+}
