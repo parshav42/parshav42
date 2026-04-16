@@ -1,4 +1,3 @@
-# parshav42-parshav42
 
 Hi, I'm Parshav 👋  
 🚀 AI & Computer Vision Developer  
