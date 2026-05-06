@@ -6,9 +6,9 @@ Hi, I'm Parshav 👋
 🔧 Tech Stack:
 - Python, OpenCV, YOLO
 - Flutter
-- Git, REST APIs
+- Git,
 
 📌 Projects:
-- Animal Detection System
-- Missing Person Finder
+- Smart Home Security
+- Automatica Attendance 
 - Restaurant Recommendation System
