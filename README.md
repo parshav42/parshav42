@@ -4,8 +4,7 @@ Hi, I'm Parshav 👋
 💡 Working on YOLO, OpenCV, Real-time Detection  
 
 🔧 Tech Stack:
-- Python, OpenCV, YOLO,matplotlib
-- Flutter
+- Python, OpenCV, YOLO
 - Git,
 
 📌 Projects:
