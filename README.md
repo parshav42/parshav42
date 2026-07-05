@@ -1,7 +1,7 @@
 
 Hi, I'm Parshav 👋  
 🚀 ML & Computer Vision Developer  
-💡 Working on YOLO, OpenCV, Real-time Detection  
+💡 Working on YOLO, OpenCV, Real-time Detection, ML algoritham   
 
 🔧 Tech Stack:
 - Python, OpenCV, YOLO
@@ -11,4 +11,4 @@ Hi, I'm Parshav 👋
 - Smart Home Security
 - Automatica Attendance 
 - Restaurant Recommendation System
-- AI Agent(sugarcane)
+- AI Agent(sugarcane)...Ongoing
