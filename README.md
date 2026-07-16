@@ -18,7 +18,7 @@ I'm a Computer Vision & Machine Learning Developer working as a Software Enginee
 ⚙️ Core stack: PyTorch, OpenCV, YOLO, MediaPipe, FAISS, LangChain
 🧩 Interested in: real-time object detection, retrieval-augmented generation, model optimization & deployment
 🎓 Studying at D.Y. Patil Agriculture and Technical University, Talsande
-📫 Reach me: singhrohan98192@gmail.com
+📫 Reach me: parshavkhoche16@gmail.com
 
 
 🏗️ How I Build
@@ -58,6 +58,6 @@ AI Agent (Sugarcane) — Ongoing RAG-powered domain AI agent — LangChain, FAIS
 <a href="https://linkedin.com/in/parshav-khoche"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://www.kaggle.com/parshavkhoche"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
 <a href="https://khoche-s.web.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
-<a href="mailto:singhrohan98192@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:parshavkhoche16@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://orcid.org/0009-0004-9384-9472"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" /></a>
 </p>
