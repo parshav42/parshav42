@@ -5,7 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+Real-time+Computer+Vision+Systems;Designing+RAG+Pipelines+%26+AI+Agents;PyTorch+%7C+OpenCV+%7C+YOLO+%7C+MediaPipe;Turning+Research+into+Production+ML" alt="Typing SVG" />
 </p>
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=parshav42&label=Profile%200Views&color=00F7FF&style=flat" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=parshav42&label=Profile%20Views&color=00F7FF&style=flat" alt="profile views" />
 <img src="https://img.shields.io/github/followers/parshav42?label=Followers&style=flat&color=00F7FF" />
 <a href="https://khoche-s.web.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-00F7FF?style=flat&logo=googlechrome&logoColor=white" /></a>
 <a href="https://orcid.org/0009-0004-9384-9472"><img src="https://img.shields.io/badge/ORCID-Research-A6CE39?style=flat&logo=orcid&logoColor=white" /></a>
