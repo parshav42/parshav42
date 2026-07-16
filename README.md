@@ -5,7 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+Real-time+Computer+Vision+Systems;Designing+RAG+Pipelines+%26+AI+Agents;PyTorch+%7C+OpenCV+%7C+YOLO+%7C+MediaPipe;Turning+Research+into+Production+ML" alt="Typing SVG" />
 </p>
 <p align="center">
-<img src="https://komarev.com/ghpvc/?username=parshav42&label=Profile%20Views&color=00F7FF&style=flat" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=parshav42&label=Profile%200Views&color=00F7FF&style=flat" alt="profile views" />
 <img src="https://img.shields.io/github/followers/parshav42?label=Followers&style=flat&color=00F7FF" />
 <a href="https://khoche-s.web.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-00F7FF?style=flat&logo=googlechrome&logoColor=white" /></a>
 <a href="https://orcid.org/0009-0004-9384-9472"><img src="https://img.shields.io/badge/ORCID-Research-A6CE39?style=flat&logo=orcid&logoColor=white" /></a>
@@ -27,7 +27,7 @@ For RAG systems: Documents → Embeddings (FAISS) → Retriever → LLM → Agen
 
 🛠️ Tech Stack
 <p align="center">
-<img src="https://skillicons.dev/icons?i=py,pytorch,opencv,git,github,vscode,docker,linux,tensorflow,fastapi" />
+<img src="https://skillicons.dev/icons?i=py,pytorch,opencv,git,github,vscode,docker,linux,fastapi" />
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/YOLOv8-111F68?style=for-the-badge" />
@@ -47,17 +47,6 @@ AI-Enhanced Intrusion Detection — Jupyter Notebook based intrusion detection w
 AI Agent (Sugarcane) — Ongoing RAG-powered domain AI agent — LangChain, FAISS, LLM
 (Links same as before — keep your existing repo links under each project name.)
 
-📊 GitHub Stats
-<p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=parshav42&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=parshav42&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=parshav42&theme=tokyonight&hide_border=true" />
-</p>
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=parshav42&theme=tokyonight&no-frame=true&row=1&column=6" />
-</p>
 
 🐍 Contribution Snake
 <p align="center">
@@ -67,10 +56,8 @@ AI Agent (Sugarcane) — Ongoing RAG-powered domain AI agent — LangChain, FAIS
 🌐 Connect with Me
 <p align="center">
 <a href="https://linkedin.com/in/parshav-khoche"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.kaggle.com/parshavkhoche"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
 <a href="https://khoche-s.web.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
 <a href="mailto:singhrohan98192@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://orcid.org/0009-0004-9384-9472"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" /></a>
-</p>
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00F7FF&height=100&section=footer" />
 </p>
