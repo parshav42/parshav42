@@ -6,7 +6,7 @@
 </p>
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=parshav42&label=Profile%20Views&color=00F7FF&style=flat" alt="profile views" />
-<img src="https://img.shields.io/github/followers/parshav42?label=Followers&style=flat&color=00F7FF" />
+<!-- <img src="https://img.shields.io/github/followers/parshav42?label=Followers&style=flat&color=00F7FF" /> -->
 <a href="https://khoche-s.web.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-00F7FF?style=flat&logo=googlechrome&logoColor=white" /></a>
 <a href="https://orcid.org/0009-0004-9384-9472"><img src="https://img.shields.io/badge/ORCID-Research-A6CE39?style=flat&logo=orcid&logoColor=white" /></a>
 </p>
