@@ -1,5 +1,5 @@
 
-<h1 align="center">Hi 👋, I'm Parshav Khoche</h1>
+<h1 align="center">Hi , I'm Parshav Khoche</h1>
 <h3 align="center">Machine Learning Engineer | Computer Vision | RAG & LLM Systems</h3>
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Building+Real-time+Computer+Vision+Systems;Designing+RAG+Pipelines+%26+AI+Agents;PyTorch+%7C+OpenCV+%7C+YOLO+%7C+MediaPipe;Turning+Research+into+Production+ML" alt="Typing SVG" />
