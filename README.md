@@ -59,5 +59,5 @@ AI Agent (Sugarcane) — Ongoing RAG-powered domain AI agent — LangChain, FAIS
 <a href="https://www.kaggle.com/parshavkhoche"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
 <a href="https://khoche-s.web.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
 <a href="mailto:parshavkhoche16@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<!-- <a href="https://orcid.org/0009-0004-9384-9472"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" /></a>
-</p> -->
+<a href="https://orcid.org/0009-0004-9384-9472"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" /></a>
+</p>
