@@ -73,55 +73,6 @@ A domain-specific **RAG-powered AI agent** designed to retrieve relevant knowled
 
 </p>
 
----
-
-## 🏗️ How I Build AI Systems
-
-### Computer Vision
-
-```text
-Input
-  ↓
-Data Collection
-  ↓
-Preprocessing
-  ↓
-OpenCV / MediaPipe
-  ↓
-PyTorch / YOLO
-  ↓
-Evaluation
-  ↓
-Optimization
-  ↓
-FastAPI / Docker
-  ↓
-Production
-```
-
-### RAG & Agentic AI
-
-```text
-Documents
-   ↓
-Chunking & Preprocessing
-   ↓
-Embeddings
-   ↓
-FAISS / Vector Store
-   ↓
-Retriever
-   ↓
-Context Construction
-   ↓
-LLM
-   ↓
-Agent / Tool Calling
-   ↓
-Grounded Response
-```
-
----
 
 ## 🧩 Featured Projects
 
