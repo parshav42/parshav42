@@ -142,9 +142,9 @@ Focused on building practical expertise across:
 </p>
 
 <p align="center">
-  <a href="https://khoche-s.web.app/">
+  <!-- <a href="https://khoche-s.web.app/">
     <img src="https://img.shields.io/badge/Portfolio-00F7FF?style=for-the-badge&logo=googlechrome&logoColor=black" />
-  </a>
+  </a> -->
   <a href="https://linkedin.com/in/parshav-khoche">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
