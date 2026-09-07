@@ -27,7 +27,7 @@
 
 ## 🧠 About Me
 
-I'm a **Machine Learning Engineer** focused on building intelligent systems that combine **computer vision, retrieval-augmented generation, LLMs, and AI agents**.
+I'm a **Machine Learning Engineer** focused on building intelligent systems that combine **computer vision, retrieval-augmented generation**.
 
 Currently working as a **Software Engineer Intern at A3 Services**, where I work on practical ML and AI solutions with an emphasis on real-time inference, automation, and deployable systems.
 
@@ -45,8 +45,6 @@ A domain-specific **RAG-powered AI agent** designed to retrieve relevant knowled
 
 * Computer Vision & Real-Time Inference
 * Object Detection & Tracking
-* Retrieval-Augmented Generation (RAG)
-* LLM Applications & AI Agents
 * Embedding & Vector Search
 * Model Optimization
 * ML Deployment & APIs
