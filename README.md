@@ -117,7 +117,7 @@ Focused on building practical expertise across:
 <img src="https://img.shields.io/badge/Kaggle-Explore-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
 </a>
 
-<a href="https://khoche-s.web.app/">
+<a href="https://parshav-ml.vercel.app/">
 <img src="https://img.shields.io/badge/Portfolio-Explore-00F7FF?style=for-the-badge&logo=googlechrome&logoColor=black"/>
 </a>
 
