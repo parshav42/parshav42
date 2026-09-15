@@ -35,21 +35,6 @@ My approach is simple:
 
 > **Build models that work. Build systems that scale. Turn research into useful products.**
 
-### 🚀 Currently Building
-
-**AI Agent — Sugarcane**
-
-A domain-specific **RAG-powered AI agent** designed to retrieve relevant knowledge, reason over contextual information, and provide grounded answers.
-
-### 🔬 Areas I Work In
-
-* Computer Vision & Real-Time Inference
-* Object Detection & Tracking
-* Embedding & Vector Search
-* Model Optimization
-* ML Deployment & APIs
-* End-to-End AI Pipelines
-
 ---
 
 ## ⚡ AI Engineering Stack
