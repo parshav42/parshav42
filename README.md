@@ -49,7 +49,6 @@ My approach is simple:
 
 <img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge" />
 <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white" />
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" />
 <img src="https://img.shields.io/badge/FAISS-005571?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
 <img src="https://img.shields.io/badge/LLMs-412991?style=for-the-badge" />
