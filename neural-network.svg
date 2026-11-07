@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#061326"/>
+    <stop offset="50%" stop-color="#10365e"/>
+    <stop offset="100%" stop-color="#020b18"/>
+  </linearGradient>
+  <radialGradient id="node">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="45%" stop-color="#a5e4ff"/>
+    <stop offset="100%" stop-color="#258bff"/>
+  </radialGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<rect width="900" height="360" rx="20" fill="url(#bg)"/>
+
+<g stroke="#58baff" stroke-width=".6" opacity=".12">
+  <path d="M0 80H900 M0 130H900 M0 180H900 M0 230H900 M0 280H900"/>
+  <path d="M450 0L0 360 M450 0L180 360 M450 0L720 360 M450 0L900 360"/>
+</g>
+
+<g font-family="Arial, sans-serif">
+  <text x="35" y="42" fill="#eaf8ff" font-size="18" font-weight="bold" letter-spacing="3">PARSHAV.exe</text>
+  <text x="35" y="62" fill="#75caff" font-size="10" letter-spacing="2">ARTIFICIAL INTELLIGENCE CORE</text>
+  <circle cx="850" cy="38" r="5" fill="#65e6ff" filter="url(#glow)">
+    <animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="865" y="42" fill="#bceaff" font-size="11" text-anchor="end">SYSTEM ONLINE</text>
+</g>
+
+<!-- Neural connections -->
+<g fill="none" stroke="#65bfff" stroke-width="1.2" opacity=".38">
+  <path d="M110 115L280 85L450 110L620 80L790 115"/>
+  <path d="M110 165L280 135L450 150L620 130L790 165"/>
+  <path d="M110 215L280 185L450 190L620 180L790 215"/>
+  <path d="M110 265L280 235L450 230L620 230L790 265"/>
+  <path d="M110 115L280 185L450 110L620 180L790 115"/>
+  <path d="M110 265L280 135L450 230L620 130L790 265"/>
+  <path d="M110 165L280 235L450 150L620 230L790 165"/>
+  <path d="M110 215L280 85L450 190L620 80L790 215"/>
+</g>
+
+<!-- Moving data pulses -->
+<g fill="#ffffff" filter="url(#glow)">
+  <circle r="4">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M110 115L280 85L450 110L620 80L790 115"/>
+  </circle>
+  <circle r="3.5">
+    <animateMotion dur="4s" begin="-1.5s" repeatCount="indefinite" path="M110 265L280 135L450 230L620 130L790 265"/>
+  </circle>
+  <circle r="4">
+    <animateMotion dur="3.5s" begin="-2s" repeatCount="indefinite" path="M110 165L280 235L450 150L620 230L790 165"/>
+  </circle>
+  <circle r="3">
+    <animateMotion dur="4.5s" begin="-1s" repeatCount="indefinite" path="M110 215L280 85L450 190L620 80L790 215"/>
+  </circle>
+</g>
+
+<!-- 3D neural nodes -->
+<g fill="url(#node)" stroke="#d9f5ff" stroke-width="1.2" filter="url(#glow)">
+  <circle cx="110" cy="115" r="9"/>
+  <circle cx="110" cy="165" r="9"/>
+  <circle cx="110" cy="215" r="9"/>
+  <circle cx="110" cy="265" r="9"/>
+
+  <circle cx="280" cy="85" r="10"/>
+  <circle cx="280" cy="135" r="10"/>
+  <circle cx="280" cy="185" r="10"/>
+  <circle cx="280" cy="235" r="10"/>
+
+  <circle cx="450" cy="110" r="12"/>
+  <circle cx="450" cy="150" r="12"/>
+  <circle cx="450" cy="190" r="12"/>
+  <circle cx="450" cy="230" r="12"/>
+
+  <circle cx="620" cy="80" r="10"/>
+  <circle cx="620" cy="130" r="10"/>
+  <circle cx="620" cy="180" r="10"/>
+  <circle cx="620" cy="230" r="10"/>
+
+  <circle cx="790" cy="115" r="9"/>
+  <circle cx="790" cy="165" r="9"/>
+  <circle cx="790" cy="215" r="9"/>
+  <circle cx="790" cy="265" r="9"/>
+</g>
+
+<g fill="#ffffff">
+  <circle cx="110" cy="115" r="2"/>
+  <circle cx="280" cy="85" r="2"/>
+  <circle cx="450" cy="110" r="3"/>
+  <circle cx="450" cy="150" r="3"/>
+  <circle cx="450" cy="190" r="3"/>
+  <circle cx="450" cy="230" r="3"/>
+  <circle cx="620" cy="130" r="2"/>
+  <circle cx="790" cy="165" r="2"/>
+</g>
+
+<g font-family="Arial, sans-serif" fill="#83bce9" font-size="10" letter-spacing="2">
+  <text x="110" y="305" text-anchor="middle">INPUT</text>
+  <text x="280" y="305" text-anchor="middle">DATA</text>
+  <text x="450" y="305" text-anchor="middle">NEURAL CORE</text>
+  <text x="620" y="305" text-anchor="middle">INFERENCE</text>
+  <text x="790" y="305" text-anchor="middle">OUTPUT</text>
+  <text x="450" y="340" text-anchor="middle" fill="#b8e7ff">MACHINE LEARNING • DEEP LEARNING • AI AGENTS</text>
+</g>
+</svg>
