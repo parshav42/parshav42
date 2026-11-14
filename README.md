@@ -42,7 +42,7 @@ Currently a Software Engineer Intern at **A3 Services**.
 ## GitHub activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/parshav42/parshav42/output/github-contribution-grid-snake.gif" width="100%" alt="Animated GitHub contribution snake" />
+  <img src="https://raw.githubusercontent.com/parshav42/parshav42/output/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution snake" />
 </p>
 
 <p align="center">
