@@ -1,5 +1,5 @@
 
-name: AI Profile Animation Generator
+name: Pac-Man Profile Animation Generator
 
 on:
   push:
@@ -23,16 +23,11 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      # Generate BOTH animated GIF and SVG snake
-      - name: Generate contribution snake
-        uses: Platane/snk@v3
+      - name: Generate Pac-Man contribution game
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: parshav42
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          outputs: |
-            dist/github-contribution-grid-snake.gif?color_snake=%2300F7FF&color_dots=%230D1117,%230E4429,%23006D32,%2326A641,%2339D353&color_background=%230B1020
-            dist/github-contribution-grid-snake.svg?color_snake=%2300F7FF&color_dots=%230D1117,%230E4429,%23006D32,%2326A641,%2339D353
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300F7FF
+          games: pacman
 
       # Generate futuristic neural-network banner
       - name: Generate AI neural network banner
@@ -202,8 +197,8 @@ jobs:
           echo "Generated assets:"
           ls -lh dist/
           test -s dist/neural-network.svg
-          test -s dist/github-contribution-grid-snake.gif
-          test -s dist/github-contribution-grid-snake.svg
+          test -s dist/pacman-contribution-graph.svg
+          test -s dist/pacman-contribution-graph-dark.svg
 
       # Publish everything to output branch
       - name: Publish profile animations
