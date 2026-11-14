@@ -44,11 +44,7 @@ Currently a Software Engineer Intern at **A3 Services**.
 Pac-Man eats through my contribution graph while ghosts chase him.
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/parshav42/parshav42/output/pacman-contribution-graph-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/parshav42/parshav42/output/pacman-contribution-graph.svg" />
-    <img src="https://raw.githubusercontent.com/parshav42/parshav42/output/pacman-contribution-graph.svg" width="100%" alt="Animated Pac-Man contribution graph with ghosts" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/parshav42/parshav42/output/pacman-contribution-graph.svg" width="100%" alt="Animated Pac-Man contribution graph with ghosts" />
 </p>
 
 <p align="center">
