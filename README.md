@@ -44,7 +44,7 @@ Currently a Software Engineer Intern at **A3 Services**.
 ### Galaga preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/parshav42/parshav42/output/galaga-contribution-graph.svg" width="100%" alt="Animated Galaga contribution graph" />
+  <img src="https://raw.githubusercontent.com/parshav42/parshav42/output/galaga-contribution-graph-dark.svg" width="100%" alt="Animated Galaga contribution graph" />
 </p>
 
 <p align="center">
