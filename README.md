@@ -71,11 +71,14 @@ The goal is to transform domain knowledge into an interactive AI system capable 
 ---
 
 
-## 🐍 Contribution Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/parshav42/parshav42/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+  <img
+    src="https://raw.githubusercontent.com/parshav42/parshav42/output/github-contribution-grid-snake.svg"
+    alt="GitHub Contribution Snake"
+  />
 </p>
+
 
 ---
 
