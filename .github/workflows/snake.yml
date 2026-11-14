@@ -1,0 +1,239 @@
+
+name: Generate AI Engineer Profile Animations
+
+on:
+  push:
+    branches:
+      - main
+
+  schedule:
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    name: Generate Profile Animations
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 1. Generate contribution snake
+      - name: Generate GitHub contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: parshav42
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%2300F7FF&color_dots=%230D1117,%230E4429,%23006D32,%2326A641,%2339D353
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300F7FF
+
+      # 2. Generate futuristic neural network animation
+      - name: Generate neural network animation
+        run: |
+          mkdir -p dist
+
+          cat > dist/neural-network.svg <<'SVG'
+          <svg xmlns="http://www.w3.org/2000/svg"
+               width="1200" height="360"
+               viewBox="0 0 1200 360">
+
+            <defs>
+              <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#050B18"/>
+                <stop offset="50%" stop-color="#0B1D35"/>
+                <stop offset="100%" stop-color="#020812"/>
+              </linearGradient>
+
+              <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#00F7FF" stop-opacity=".05"/>
+                <stop offset="50%" stop-color="#00F7FF"/>
+                <stop offset="100%" stop-color="#8B5CF6" stop-opacity=".2"/>
+              </linearGradient>
+
+              <radialGradient id="node">
+                <stop offset="0%" stop-color="#FFFFFF"/>
+                <stop offset="40%" stop-color="#00F7FF"/>
+                <stop offset="100%" stop-color="#0875D1"/>
+              </radialGradient>
+
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="5" result="blur"/>
+                <feMerge>
+                  <feMergeNode in="blur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+
+              <pattern id="grid" width="35" height="35"
+                       patternUnits="userSpaceOnUse">
+                <path d="M35 0H0V35"
+                      fill="none" stroke="#1E4770"
+                      stroke-width=".5" opacity=".35"/>
+              </pattern>
+            </defs>
+
+            <rect width="1200" height="360" rx="18"
+                  fill="url(#background)"/>
+
+            <rect width="1200" height="360" rx="18"
+                  fill="url(#grid)"/>
+
+            <!-- Ambient light -->
+            <circle cx="600" cy="175" r="180"
+                    fill="#0077FF" opacity=".07">
+              <animate attributeName="opacity"
+                       values=".03;.13;.03"
+                       dur="5s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- Heading -->
+            <g font-family="Arial, sans-serif">
+              <text x="48" y="55" fill="#00F7FF"
+                    font-size="15" font-weight="bold"
+                    letter-spacing="4">
+                PARSHAV KHOCHE
+              </text>
+
+              <text x="48" y="91" fill="#F0F8FF"
+                    font-size="27" font-weight="bold">
+                INTELLIGENCE IN MOTION
+              </text>
+
+              <text x="48" y="116" fill="#86B8D9"
+                    font-size="12" letter-spacing="2">
+                MACHINE LEARNING • AGENTIC AI • DEEP LEARNING
+              </text>
+
+              <circle cx="1120" cy="48" r="5"
+                      fill="#00F7FF" filter="url(#glow)">
+                <animate attributeName="opacity"
+                         values="1;.2;1"
+                         dur="1.8s" repeatCount="indefinite"/>
+              </circle>
+
+              <text x="1105" y="52" fill="#A5DDF5"
+                    font-size="10" text-anchor="end">
+                AI CORE ONLINE
+              </text>
+            </g>
+
+            <!-- Neural connections -->
+            <g fill="none" stroke="url(#line)"
+               stroke-width="1.3" opacity=".65">
+
+              <path d="M100 165 L300 145 L480 195 L690 140 L890 175 L1080 145"/>
+              <path d="M100 220 L300 245 L480 195 L690 235 L890 175 L1080 230"/>
+              <path d="M100 165 L300 245 L480 145 L690 235 L890 115 L1080 230"/>
+              <path d="M100 220 L300 145 L480 245 L690 140 L890 235 L1080 145"/>
+              <path d="M300 145 L480 145 L690 235"/>
+              <path d="M300 245 L480 245 L690 140"/>
+              <path d="M480 145 L690 140 L890 115"/>
+              <path d="M480 245 L690 235 L890 235"/>
+            </g>
+
+            <!-- Data packets -->
+            <g fill="#FFFFFF" filter="url(#glow)">
+              <circle r="4">
+                <animateMotion dur="4s" repeatCount="indefinite"
+                  path="M100 165 L300 145 L480 195 L690 140 L890 175 L1080 145"/>
+              </circle>
+
+              <circle r="3">
+                <animateMotion dur="5s" begin="-2s"
+                  repeatCount="indefinite"
+                  path="M100 220 L300 245 L480 195 L690 235 L890 175 L1080 230"/>
+              </circle>
+
+              <circle r="3.5">
+                <animateMotion dur="4.5s" begin="-1s"
+                  repeatCount="indefinite"
+                  path="M100 165 L300 245 L480 145 L690 235 L890 115 L1080 230"/>
+              </circle>
+
+              <circle r="3">
+                <animateMotion dur="3.8s" begin="-2.5s"
+                  repeatCount="indefinite"
+                  path="M100 220 L300 145 L480 245 L690 140 L890 235 L1080 145"/>
+              </circle>
+            </g>
+
+            <!-- Neural nodes -->
+            <g fill="url(#node)" filter="url(#glow)">
+              <circle cx="100" cy="165" r="9"/>
+              <circle cx="100" cy="220" r="9"/>
+
+              <circle cx="300" cy="145" r="11"/>
+              <circle cx="300" cy="245" r="11"/>
+
+              <circle cx="480" cy="145" r="11"/>
+              <circle cx="480" cy="195" r="15"/>
+              <circle cx="480" cy="245" r="11"/>
+
+              <circle cx="690" cy="140" r="11"/>
+              <circle cx="690" cy="235" r="11"/>
+
+              <circle cx="890" cy="115" r="10"/>
+              <circle cx="890" cy="175" r="14"/>
+              <circle cx="890" cy="235" r="10"/>
+
+              <circle cx="1080" cy="145" r="9"/>
+              <circle cx="1080" cy="230" r="9"/>
+            </g>
+
+            <!-- Pulsing central intelligence core -->
+            <circle cx="480" cy="195" r="25"
+                    fill="none" stroke="#00F7FF"
+                    stroke-width="1.5" opacity=".8">
+              <animate attributeName="r"
+                       values="20;34;20"
+                       dur="2.5s" repeatCount="indefinite"/>
+              <animate attributeName="opacity"
+                       values=".8;.1;.8"
+                       dur="2.5s" repeatCount="indefinite"/>
+            </circle>
+
+            <!-- Scanning line -->
+            <rect x="0" y="0" width="2" height="360"
+                  fill="#00F7FF" opacity=".55"
+                  filter="url(#glow)">
+              <animate attributeName="x"
+                       values="0;1200;0"
+                       dur="9s" repeatCount="indefinite"/>
+            </rect>
+
+            <!-- Footer -->
+            <g font-family="Arial, sans-serif"
+               font-size="11" fill="#8CB9D8"
+               letter-spacing="2">
+              <text x="100" y="295" text-anchor="middle">INPUT</text>
+              <text x="300" y="295" text-anchor="middle">DATA</text>
+              <text x="480" y="295" text-anchor="middle">AI CORE</text>
+              <text x="690" y="295" text-anchor="middle">INFERENCE</text>
+              <text x="890" y="295" text-anchor="middle">AGENTS</text>
+              <text x="1080" y="295" text-anchor="middle">OUTPUT</text>
+
+              <text x="600" y="337"
+                    text-anchor="middle"
+                    fill="#00F7FF"
+                    font-size="12">
+                BUILDING INTELLIGENT SYSTEMS THAT SOLVE REAL PROBLEMS
+              </text>
+            </g>
+          </svg>
+          SVG
+
+      # 3. Publish all generated assets
+      - name: Publish animations to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
