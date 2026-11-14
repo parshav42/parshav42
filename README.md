@@ -42,8 +42,8 @@ Currently a Software Engineer Intern at **A3 Services**.
 ## GitHub activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=parshav42&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=parshav42&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top languages" />
+  <img src="https://img.shields.io/github/followers/parshav42?label=Followers&style=for-the-badge" alt="GitHub followers" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fparshav42&query=%24.public_repos&label=Public%20repos&style=for-the-badge" alt="Public GitHub repositories" />
 </p>
 
 <p align="center">
