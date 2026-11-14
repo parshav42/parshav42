@@ -1,5 +1,5 @@
 
-name: Pac-Man Profile Animation Generator
+name: Galaga Profile Animation Generator
 
 on:
   push:
@@ -23,11 +23,11 @@ jobs:
       - name: Checkout profile repository
         uses: actions/checkout@v4
 
-      - name: Generate Pac-Man contribution game
+      - name: Generate Galaga contribution game
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: parshav42
-          games: pacman
+          games: galaga
 
       # Generate futuristic neural-network banner
       - name: Generate AI neural network banner
@@ -197,8 +197,8 @@ jobs:
           echo "Generated assets:"
           ls -lh dist/
           test -s dist/neural-network.svg
-          test -s dist/pacman-contribution-graph.svg
-          test -s dist/pacman-contribution-graph-dark.svg
+          test -s dist/galaga-contribution-graph.svg
+          test -s dist/galaga-contribution-graph-dark.svg
 
       # Publish everything to output branch
       - name: Publish profile animations

@@ -41,10 +41,10 @@ Currently a Software Engineer Intern at **A3 Services**.
 
 ## GitHub activity
 
-Pac-Man eats through my contribution graph while ghosts chase him.
+### Galaga preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/parshav42/parshav42/output/pacman-contribution-graph.svg" width="100%" alt="Animated Pac-Man contribution graph with ghosts" />
+  <img src="https://raw.githubusercontent.com/parshav42/parshav42/output/galaga-contribution-graph.svg" width="100%" alt="Animated Galaga contribution graph" />
 </p>
 
 <p align="center">
