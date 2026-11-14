@@ -52,7 +52,7 @@ Pac-Man eats through my contribution graph while ghosts chase him.
 </p>
 
 <p align="center">
-  <sub>Generated daily with <a href="./.github/workflows/snake.yml">GitHub Actions</a>.</sub>
+  <sub>Generated daily with <a href="./.github/workflows/pacman.yml">GitHub Actions</a>.</sub>
 </p>
 
 <p align="center">
