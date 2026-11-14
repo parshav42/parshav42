@@ -46,5 +46,9 @@ Currently a Software Engineer Intern at **A3 Services**.
 </p>
 
 <p align="center">
+  <sub>Generated daily with <a href="./.github/workflows/snake.yml">GitHub Actions</a>.</sub>
+</p>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4834D4,50:0077B6,100:00F7FF&height=90&section=footer" width="100%" alt="Animated blue wave" />
 </p>
