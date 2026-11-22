@@ -29,12 +29,6 @@ Currently a Software Engineer Intern at **A3 Services**.
 - **ML:** PyTorch, scikit-learn, EfficientNet, YOLO, OpenCV
 - **Engineering:** Python, C++, FastAPI, Docker, Git, Linux, PostgreSQL
 
-## Featured projects
-
-- **Sugarcane AI Agent** — Agricultural knowledge assistant using document retrieval, FAISS, RAG, and LLM-powered workflows.
-- **Sugarcane Disease Detection** — Five-class leaf disease classifier built with PyTorch, EfficientNet-B0, and a FastAPI inference backend.
-- **Peanut Leaf Disease Detection** — Custom-dataset object detection project using YOLOv8 and OpenCV.
-
 ## Education
 
 **B.Tech in Computer Science and Engineering** — D.Y. Patil Agriculture and Technical University, Talsande
