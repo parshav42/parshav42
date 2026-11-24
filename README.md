@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Parshav Khoche 👋</h1>
+<h1 align="center">Hi, I'm Parshav Khoche</h1>
 
 <p align="center"><strong>AI Engineer · Machine Learning · Agentic Systems</strong></p>
 
