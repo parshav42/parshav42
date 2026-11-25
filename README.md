@@ -26,7 +26,7 @@ Currently a Software Engineer Intern at **A3 Services**.
 ## Focus & tools
 
 - **AI:** LLMs, RAG, embeddings, vector search, LangChain, LangGraph, FAISS, Ollama
-- **ML:** PyTorch, scikit-learn, EfficientNet, YOLO, OpenCV
+- **ML:** PyTorch, scikit-learn, EfficientNet
 - **Engineering:** Python, C++, FastAPI, Docker, Git, Linux, PostgreSQL
 
 ## Education
